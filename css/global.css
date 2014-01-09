@@ -8,7 +8,8 @@ header h1 {
 }
 
 .petelist {
-  width: 45%;
+  width: 49%;
+  float: left;
 }
 .petelist li {
   display: inline-block;
@@ -17,16 +18,35 @@ header h1 {
 }
 .petelist li img {
   position: relative;
-  top: -160px;
   height: 100%;
   max-width: 300px;
   width: 50%;
   float: right;
   padding: 10px;
 }
-.petelist li p {
+.petelist li .copy {
   width: 45%;
+  float: left;
 }
-.petelist li h3 {
+
+.johnlist {
+  width: 49%;
+  float: right;
+}
+.johnlist li {
+  display: inline-block;
+  padding: 20px;
+  max-height: 300px;
+}
+.johnlist li img {
+  position: relative;
+  height: 100%;
+  max-width: 300px;
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+.johnlist li .copy {
   width: 45%;
+  float: right;
 }
