@@ -2,6 +2,7 @@ body {
   height: 100%;
   font-family: "futura";
   margin: 0 0;
+  padding: 0 0;
 }
 
 a {
@@ -13,8 +14,7 @@ header {
 }
 header h1 {
   color: #ffffff;
-  text-align: left;
-  padding-left: 40px;
+  text-align: center;
 }
 
 .petelist {
@@ -24,13 +24,13 @@ header h1 {
 .petelist li {
   display: inline-block;
   padding: 20px;
-  max-height: 300px;
 }
 .petelist li h3 {
   margin: 0px;
 }
 .petelist li img {
   position: relative;
+  max-height: 300px;
   max-width: 300px;
   width: 50%;
   float: right;
@@ -40,7 +40,7 @@ header h1 {
   font-style: italic;
 }
 .petelist li .copy {
-  width: 45%;
+  width: 50%;
   float: left;
 }
 
@@ -51,13 +51,14 @@ header h1 {
 .johnlist li {
   display: inline-block;
   padding: 20px;
-  max-height: 300px;
 }
 .johnlist li h3 {
   margin: 0px;
 }
 .johnlist li img {
+  overflow: auto;
   position: relative;
+  max-height: 300px;
   max-width: 300px;
   width: 50%;
   float: left;
@@ -77,8 +78,9 @@ footer {
   width: 100%;
   background-color: #000000;
   position: relative;
-  padding: 0px 0px 0px 40px;
+  padding: 0px 0px 0px 0px;
 }
 footer h4 {
+  text-align: center;
   color: #ffffff;
 }
